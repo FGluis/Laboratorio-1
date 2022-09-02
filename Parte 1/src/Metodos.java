@@ -1,13 +1,16 @@
 public class Metodos {
     
-    public static void Ordenar_lista1(String Mat[][], int f ) { 
+    //se separan las funciones ordenar pues cada lista tiene diferentes columnas
+    
+    public static void Ordenar_lista1(String Mat[][], int f ) {
         String aux;
-
+        //Ordenamos la matriz respectos a la primera columna 
         for(int i = 0; i < f; i++){
             for(int j = 0; j < f-i; j++){
-                if(Integer.parseInt(Mat[j+1][0]) < Integer.parseInt(Mat[j][0])){
+                if(Integer.parseInt(Mat[j+1][0]) < Integer.parseInt(Mat[j][0])){ 
+                    // Organizamos primera columna y las demas
                     aux = Mat[j+1][0];
-                    Mat[j+1][0] = Mat[j][0];
+                    Mat[j+1][0] = Mat[j][0]; 
                     Mat[j][0] = aux; 
                     
                     aux = Mat[j+1][1];
@@ -33,10 +36,11 @@ public class Metodos {
 
     public static void Ordenar_lista2(String Mat[][], int f ) { 
         String aux;
-
+                //Ordenamos la matriz respectos a la primera columna 
         for(int i = 0; i < f; i++){
             for(int j = 0; j < f-i; j++){
                 if(Integer.parseInt(Mat[j+1][0]) < Integer.parseInt(Mat[j][0])){
+                    // Organizamos primera columna y las demas
                     aux = Mat[j+1][0];
                     Mat[j+1][0] = Mat[j][0];
                     Mat[j][0] = aux; 
@@ -60,6 +64,7 @@ public class Metodos {
     }
 
     public static int Contador(String Mat[][]) {
+        // contamos las filas para poder tenerlo como variable 
         int c = 0;
         while(Mat[c][0] != null){
             c++;
