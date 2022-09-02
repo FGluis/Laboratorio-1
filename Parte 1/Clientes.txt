@@ -1,0 +1,9 @@
+10	alice	kra	310	310
+20	jorge	calle	311	311
+30	maria	ayda	315	315
+40	rony	km5	316	316
+50	carmen	calle18	310	310
+60	luis	kra90	313	313
+70	saul	calle78	316	316
+80	Mario	calle72	300	300
+90	dany	kra108	312	312

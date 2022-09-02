@@ -1,0 +1,5 @@
+100	lavadora	500000
+300	nevera	700000
+400	tv	400000
+800	escritorio	200000
+900	muebels	100000
