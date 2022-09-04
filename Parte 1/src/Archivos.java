@@ -136,7 +136,7 @@ public class Archivos {
     //a cada compoenente del archivo lo asignamos a un elemento de la matriz
     public static void CrearMatriz(String Nombre_Archivo, String Mat[][], int filas) {
         int t = 0;
-        try{c
+        try{
             BufferedReader br = new BufferedReader(new FileReader(Nombre_Archivo + ".txt"));
             String line = null;
             while((line = br.readLine()) != null){
